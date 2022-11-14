@@ -1,4 +1,4 @@
-efine(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
@@ -30,7 +30,7 @@ efine(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtr
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
            	{word: 'Ślub'},
-				{word: 'Małżeństow'},
+				{word: 'Małżeństwo'},
 				{word: 'Rodzice'},
 				{word: 'Krewni'},
 				{word: 'Rodzina'},
