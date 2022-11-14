@@ -2,20 +2,22 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
     var API = new APIConstructor();
 
 	return iatExtension({
+
 		category1 : {
-			name : Kariera', //Will appear in the data.
+			name : 'Kariera', //Will appear in the data.
 			title : {
-				media : {word : Kariera}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				media : {word : 'Kariera'}, //Name of the category presented in the task.
+				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {word : 'Korporacja'},
-				{word : 'Pensja'},
-				{word : 'Biuro'},
-				{word : 'Zawodowy'},
-				{word : 'Zarzadzanie'},
-				{word : 'Biznes'}
+            {word: 'Kariera'},
+				{word: 'Korporacja'},
+				{word: 'Pensja'},
+				{word: 'Biuro'},
+				{word: 'Zawodowy'},
+				{word: 'Zarządzanie'},
+				{word: 'Biznes'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -23,21 +25,58 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		category2 :	{
 			name : 'Rodzina', //Will appear in the data.
 			title : {
-				media : {word : Rodzina}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+				media : {word : 'Rodzina'}, //Name of the category presented in the task.
+				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		{word : 'slub'},
-				{word : 'Malzenstwo'},
-				{word : 'Rodzice'},
-				{word : 'Krewni'},
-				{word : 'Rodzina'},
-				{word : 'Dom'}, 
-				{word : 'Dzieci'} 
+           	{word: 'ślub'},
+				{word: 'Małżeństwo'},
+				{word: 'Rodzice'},
+				{word: 'Krewni'},
+				{word: 'Rodzina'},
+				{word: 'Dom'}, 
+				{word: 'Dzieci'}
+			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+		},
+		attribute1 :
+		{
+			name : 'Mężczyźni',
+			title : {
+				media : {word : 'Mężczyźni'},
+				css : {color:'#0000FF','font-size':'1.8em'},
+				height : 4 //Used to position the "Or" in the combined block.
+			},
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+            	{word: 'Michał'},
+				{word: 'Paweł'},
+				{word: 'Daniel'},
+				{word: 'Jan'},
+				{word: 'Adam'}
+			],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+		},
+		attribute2 :
+		{
+			name : 'Kobiety',
+			title : {
+				media : {word : 'Kobiety'},
+				css : {color:'#0000FF','font-size':'1.8em'},
+				height : 4 //Used to position the "Or" in the combined block.
+			},
+			stimulusMedia : [ //Stimuli content as PIP's media objects
+          {word: 'Dorota'},
+				{word: 'Katarzyna'},
+				{word: 'Emilia'},
+				{word: 'Julia'},
+				{word: 'Anna'}
+			],
+			//Stimulus css
+			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+		},
 
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
