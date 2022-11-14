@@ -44,3 +44,4 @@ define(['pipAPI', 'https://radoslaw-trepanowski.github.io/test2/test.js'], funct
 	});
 });
 
+
