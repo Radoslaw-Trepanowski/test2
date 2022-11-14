@@ -28,13 +28,13 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		{word: 'slub'},
-				{word: 'Malzenstwo'},
-				{word: 'Rodzice'},
-				{word: 'Krewni'},
-				{word: 'Rodzina'},
-				{word: 'Dom'}, 
-				{word: 'Dzieci'} 
+    		{word : 'slub'},
+				{word : 'Malzenstwo'},
+				{word : 'Rodzice'},
+				{word : 'Krewni'},
+				{word : 'Rodzina'},
+				{word : 'Dom'}, 
+				{word : 'Dzieci'} 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
